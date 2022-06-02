@@ -41,7 +41,7 @@ export default siteConfig({
   // example:
   //
   // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
+  //   '/bucketlist': '62c28041a66f4b9798c3a523a2368775',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: null,
@@ -54,9 +54,20 @@ export default siteConfig({
   // important pages
   navigationStyle: 'custom',
   navigationLinks: [
+
+    {
+      title: 'Gallery',
+      url: 'https://www.gallery.ronnycoste.com'
+    },
+    
     {
       title: 'Bucketlist',
-      pageId: '62c28041a66f4b9798c3a523a2368775'
+      url: 'https://www.somethingchanged.me'
     },
+
+    // {
+    //     title: 'Bucketlist',
+    //     pageId: '62c28041a66f4b9798c3a523a2368775'
+    //   },
   ]
 })
