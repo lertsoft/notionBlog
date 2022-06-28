@@ -57,12 +57,12 @@ export default siteConfig({
 
     {
       title: 'Gallery',
-      url: 'https://www.gallery.ronnycoste.com'
+      url: 'https://gallery.ronnycoste.com'
     },
     
     {
       title: 'Bucketlist',
-      url: 'https://www.somethingchanged.me'
+      url: 'https://somethingchanged.me'
     },
 
     // {

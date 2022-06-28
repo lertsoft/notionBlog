@@ -1,10 +1,8 @@
 {
-  "name": "nextjs-notion-starter-kit",
+  "name": "Ronny's Mind",
   "version": "2.0.0",
   "private": true,
-  "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
-  "repository": "transitive-bullshit/nextjs-notion-starter-kit",
+  "description": "Personal blog build with Next and Notion",
   "license": "MIT",
   "engines": {
     "node": ">=14.17"
@@ -13,6 +11,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "prod": "next export",
     "deploy": "vercel deploy",
     "deps": "run-s deps:*",
     "deps:update": "[ -z $GITHUB_ACTIONS ] && yarn add notion-client notion-types notion-utils react-notion-x || echo 'Skipping deps:update on CI'",
