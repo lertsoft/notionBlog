@@ -63,12 +63,12 @@
   dependencies:
     json-buffer "~3.0.1"
 
-"@keyvhq/redis@^1.6.10":
-  version "1.6.13"
-  resolved "https://registry.yarnpkg.com/@keyvhq/redis/-/redis-1.6.13.tgz#493fbfbcfa0664c81dd02e54cf8960fbd88583c2"
-  integrity sha512-V8Adz38Hr37GUGQ6LUmGhOgJ2XYVHNs21RCR2l0iiSp4S6a3+4cvYxIKFJ4ed8VZ3x1547BS9mk3RaBmVWfM/A==
+"@keyvhq/redis@^1.6.20":
+  version "1.6.21"
+  resolved "https://registry.yarnpkg.com/@keyvhq/redis/-/redis-1.6.21.tgz#3c117b4ce6825ddc01e826cc878ae69177c06f48"
+  integrity sha512-kQU6lesyXv1Wwp9ZVJSqC0zxAzwETI+nsjf51EjazfEsdjJeJUJ3JAzZWrGwLbI32T3b/yC7TSb+mFoH4qdPqg==
   dependencies:
-    ioredis "~5.0.2"
+    ioredis "~5.2.0"
     p-event "~4.2.0"
 
 "@matejmazur/react-katex@^3.1.3":
@@ -1950,10 +1950,10 @@ invariant@^2.2.4:
   dependencies:
     loose-envify "^1.0.0"
 
-ioredis@~5.0.2:
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-5.0.6.tgz#e50b8cc945f1f3ac932b0b8aab4bd8073d1402a9"
-  integrity sha512-KUm7wPzIet9QrFMoMm09/4bkfVKBUD9KXwBitP3hrNkZ+A6NBndweXGwYIB/7szHcTZgfo7Kvx88SxljJV4D9A==
+ioredis@~5.2.0:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-5.2.2.tgz#212467e04f6779b4e0e800cece7bb7d3d7b546d2"
+  integrity sha512-wryKc1ur8PcCmNwfcGkw5evouzpbDXxxkMkzPK8wl4xQfQf7lHe11Jotell5ikMVAtikXJEu/OJVaoV51BggRQ==
   dependencies:
     "@ioredis/commands" "^1.1.1"
     cluster-key-slot "^1.1.0"
@@ -3778,7 +3778,7 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-tar-fs@*, tar-fs@^2.0.0, tar-fs@^2.1.1:
+tar-fs@^2.0.0, tar-fs@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-2.1.1.tgz#489a15ab85f1f0befabb370b7de4f9eb5cbe8784"
   integrity sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==
